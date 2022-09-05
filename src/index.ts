@@ -1,1 +1,1 @@
-import { Monster, Warrior } from "./classes/abstract";
+console.log("Oka");
