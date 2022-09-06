@@ -1,8 +1,8 @@
-interface PersonType {
+type PersonType = {
   name: string;
   lastname: string;
-  fullName: () => string;
-}
+  fullName: () => string; 
+};
 
 export class Person implements PersonType {
   constructor(public name: string, public lastname: string) {}
@@ -13,3 +13,5 @@ export class Person implements PersonType {
 }
 
 const person = new Person("Davi", "Silva");
+
+console.log(person);
